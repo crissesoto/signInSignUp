@@ -174,7 +174,7 @@ body, input {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        padding: 2.5rem 8%;
+        padding: 2.5rem 8% !important;
         grid-column: 1 / 2; } }
     .panels-container .panel .content {
       color: #fff;
@@ -296,7 +296,7 @@ body, input {
 .container.sign-up-mode .right-panel {
   pointer-events: all; }
 
-@media (max-width: 870px) and (min-width: 571px) {
+@media (max-width: 870px) {
   .container.sign-up-mode .signin-signup {
     left: 50%; }
   .container.sign-up-mode:before {

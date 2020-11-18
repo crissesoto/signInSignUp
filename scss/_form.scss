@@ -220,7 +220,7 @@ body, input {
           flex-direction: row;
           justify-content: space-around;
           align-items: center;
-          padding: 2.5rem 8%;
+          padding: 2.5rem 8% !important;
           grid-column: 1 / 2;
         }
 
